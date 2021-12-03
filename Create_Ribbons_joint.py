@@ -1,3 +1,21 @@
+###############################################################################
+# Name: 
+#   Create ribbon joint
+#
+# Description: 
+#   By this script you can create faster and easily a ribbons joint with offset CTL and driver CTL . in this method i used a NURBS surface that it skinbind to the driver jnt (if your driver button was checked )and then with UVpin constraint ,the follower jnt UVpin constraint to the ribbon .
+#      By driver jnt you can control all of the joint in a joint chain .
+#      this method used by Taylor Whitsett at Character Rigging In Maya For Game Production workshop . 
+#      I hope you use and enjoy it . 
+#   
+#
+# Author: 
+#   Ahmadreza Rezaei
+#
+# Copyright (C) 2022 Ahmadreza Rezaei. All rights reserved.
+###############################################################################
+
+
 import maya.cmds as cmds
 import maya.OpenMayaUI as omui
 import maya.OpenMaya as om
